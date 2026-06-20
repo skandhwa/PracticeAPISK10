@@ -93,7 +93,8 @@ public class StepDefinition22 {
 		
 		req=new RequestSpecBuilder().setBaseUri(goRestURI).setContentType(ContentType.JSON)
 				.build();
-		
+
+		System.out.println("Hello");
 		
 	  
 	}
